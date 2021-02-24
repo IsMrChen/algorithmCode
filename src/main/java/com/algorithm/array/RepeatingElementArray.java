@@ -18,7 +18,6 @@ public class RepeatingElementArray {
      * 日期：2021-02-24
      * 解题思路1：
      * 先排序，然后比较相邻的两个元素是否相等，相等就证明重复了
-     * 时间复杂度为O(n)
      */
     public static boolean containsDuplicate1(int[] nums) {
         Arrays.sort(nums);
