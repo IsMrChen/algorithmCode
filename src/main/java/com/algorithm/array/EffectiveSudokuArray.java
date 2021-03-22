@@ -25,6 +25,7 @@ public class EffectiveSudokuArray {
      * 返回 true
      */
     public static boolean isValidSudoku(char[][] board) {
+        //初始化数组
         HashMap<Integer, Integer>[] rows = new HashMap[9];
         HashMap<Integer, Integer>[] columns = new HashMap[9];
         HashMap<Integer, Integer>[] boxes = new HashMap[9];
